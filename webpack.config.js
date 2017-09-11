@@ -9,7 +9,7 @@ module.exports = {
     },
 
     output: {
-        path: path.join(__dirname, './src/'),
+        path: path.join(__dirname, './src/build'),
         // filename: 'js/[name]-[chunkhash].js',
         filename: 'js/[name].js',
         // publicPath: 'http://cdn.com/'
